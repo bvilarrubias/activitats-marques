@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+header{
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 2rem;
+        gap: 1rem;
+        justify-content: flex-end;
+        li a{
+            text-decoration: none;
+            color: blue;
+        }
+    }
+}
+
+.dies {
+    background-color: lightgrey;
+}
+
+.descans {
+    background-color: lightgrey;
+}
+
+.A0374 {
+    background-color: rgb(186, 164, 225);
+}
+
+.A0372 {
+    background-color: rgb(255, 217, 145);
+}
+
+.A0373 {
+    background-color: rgb(247, 183, 64);
+}
+
+.HLLD {
+    background-color: rgb(172, 208, 222);
+}
+
+.A0369 {
+    background-color: skyblue;
+}
+
+.tuto {
+    background-color: pink;
+}
+
+.A0371 {
+    background-color: rgb(147, 255, 203);
+}
+
+.A0375 {
+    background-color: rgb(255, 194, 120);
+}
+
+.A1710 {
+    background-color: rgb(217, 217, 217);
+}
+
+.A1709 {
+    background-color: rgb(253, 153, 255);
+}
