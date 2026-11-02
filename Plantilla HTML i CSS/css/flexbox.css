@@ -1,0 +1,33 @@
+#contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.caja {
+    width: 95%;
+    height: 99%;
+    padding: 1rem;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+#d {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.minicaja {
+    padding: 40px;
+    background-color: rgb(150, 150, 150);
+    border: 1px solid black;
+}
+
+.minicaja2 {
+    background-color: rgb(150, 150, 150);
+    border: 1px solid black;
+    display: inline-block;
+    padding: 75px;
+   margin: 0px;
+}
