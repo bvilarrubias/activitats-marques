@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:visited {
+    background-color: red;
+}
+
+#gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header  sidebar1"
+        "content content"
+        "footer  footer";
+    min-height: 95vh;
+    gap: 10px;
+}
+
+.box,
+#box4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+#box1 { grid-area: header; }
+#box2 { grid-area: sidebar1; }
+#box3 { grid-area: content; }
+#box4 { grid-area: footer; }
