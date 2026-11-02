@@ -1,5 +1,0 @@
-mkdir -p css/nueva-carpeta
-touch css/nueva-carpeta/.gitkeep
-git add .
-git commit -m "Añadir nueva carpeta"
-git push
