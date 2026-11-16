@@ -1,0 +1,121 @@
+<!DOCTYPE html >
+<html lang="cat">
+
+<head id="inici">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Recull d'exercicis">
+    <meta name="author" content="Josep">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortugues</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/color.css">
+</head>
+<body>
+    <header>
+        <h1>El Dojo de les Tortugues Ninja</h1>
+        <p>Entrenament, videojocs i pizza!</p>
+    </header>
+
+    <nav>
+        <ul id="llista">
+            <li><a href="inici">Inici</a></li>
+            <li><a href="equip">L'equip ninja</a></li>
+            <li><a href="missio">Missions</a></li>
+            <li><a href="registre">Uneix-te al dojo</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="equip">
+            <h1>Les quatre tortugues</h1>
+
+            <ul class="llista">
+                <p>Leonardo - líder de l'equip</p>
+                <p>Donatello - expert en tecnologia</p>
+                <p>Raphael - especialista en combat</p>
+                <p>Michelangelo - mestre de la pizza</p>
+            </ul>
+
+            <img src="tortugues-ninja.jpg" alt="Tortugas Ninja">
+
+            <p>
+                Les tortugues treballen juntes per protegir la ciutat
+                i lluitar contra el Clan del Peu & els seus enemics.
+            </p>
+        </section>
+
+        <section id="missio">
+            <h1>Horari d'entrenament</h1>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tortuga</th>
+                        <th>Especialitat</th>
+                        <th>Color</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Leonardo</td>
+                        <td>Lideratge i katanes</td>
+                        <td>Blau</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Donatello</td>
+                        <td>Invents i tecnologia</td>
+                        <td>Morat</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Raphael</td>
+                        <td>Força i sai</td>
+                        <td>Vermell</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Michelangelo</td>
+                        <td>Agilitat i nunchaku</td>
+                        <td>Taronja</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="registre">
+            <h1>Sol·licitud d'ingrés al dojo</h1>
+
+            <form action="registre.php" method="post">
+                <label>Nom del ninja:
+                    <input type="text">
+                </label>
+
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="correu">
+
+                <label for="tortuga">Quina tortuga t'inspira més?</label>
+                <select id="tortuga">
+                    <option value="leo">Leonardo</option>
+                    <option value="donnie">Donatello</option>
+                    <option value="raph">Raphael</option>
+                    <option value="mikey">Michelangelo</option>
+                </select>
+
+                <p>Quina és la teva tècnica ninja preferida?</p>
+                <textarea></textarea>
+
+                <button type="submit">Enviar sol·licitud</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Creat al cau secret de les Tortugues Ninja</p>
+    </footer>
+</body>
+</html>
