@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html lang="cat">
+<html lang="ca">
 
 <head id="inici">
     <meta charset="UTF-8">
@@ -19,34 +19,34 @@
 
     <nav>
         <ul id="llista">
-            <li><a href="inici">Inici</a></li>
-            <li><a href="equip">L'equip ninja</a></li>
-            <li><a href="missio">Missions</a></li>
-            <li><a href="registre">Uneix-te al dojo</a></li>
+            <li><a href="#inici">Inici</a></li>
+            <li><a href="#equip">L'equip ninja</a></li>
+            <li><a href="#missio">Missions</a></li>
+            <li><a href="#registre">Uneix-te al dojo</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="equip">
-            <h1>Les quatre tortugues</h1>
+            <h2>Les quatre tortugues</h2>
 
             <ul class="llista">
-                <p>Leonardo - líder de l'equip</p>
-                <p>Donatello - expert en tecnologia</p>
-                <p>Raphael - especialista en combat</p>
-                <p>Michelangelo - mestre de la pizza</p>
+                <li>Leonardo - líder de l'equip</li>
+                <li>Donatello - expert en tecnologia</li>
+                <li>Raphael - especialista en combat</li>
+                <li>Michelangelo - mestre de la pizza</li>
             </ul>
 
             <img src="tortugues-ninja.jpg" alt="Tortugas Ninja">
 
             <p>
                 Les tortugues treballen juntes per protegir la ciutat
-                i lluitar contra el Clan del Peu & els seus enemics.
+                i lluitar contra el Clan del Peu i els seus enemics.
             </p>
         </section>
 
         <section id="missio">
-            <h1>Horari d'entrenament</h1>
+            <h2>Horari d'entrenament</h2>
 
             <table border="1">
                 <thead>
@@ -62,22 +62,16 @@
                         <td>Lideratge i katanes</td>
                         <td>Blau</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>Donatello</td>
                         <td>Invents i tecnologia</td>
                         <td>Morat</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>Raphael</td>
                         <td>Força i sai</td>
                         <td>Vermell</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>Michelangelo</td>
                         <td>Agilitat i nunchaku</td>
@@ -88,18 +82,18 @@
         </section>
 
         <section id="registre">
-            <h1>Sol·licitud d'ingrés al dojo</h1>
+            <h2>Sol·licitud d'ingrés al dojo</h2>
 
             <form action="registre.php" method="post">
                 <label>Nom del ninja:
                     <input type="text">
                 </label>
 
-                <label for="email">Correu electrònic:</label>
-                <input type="email" id="correu">
+                <label for="correu" name="">Correu electrònic:</label>
+                <input type="text" id="correu">
 
                 <label for="tortuga">Quina tortuga t'inspira més?</label>
-                <select id="tortuga">
+                <select id="tortuga" name="">
                     <option value="leo">Leonardo</option>
                     <option value="donnie">Donatello</option>
                     <option value="raph">Raphael</option>
@@ -107,7 +101,7 @@
                 </select>
 
                 <p>Quina és la teva tècnica ninja preferida?</p>
-                <textarea></textarea>
+                <textarea name=""></textarea>
 
                 <button type="submit">Enviar sol·licitud</button>
             </form>
